@@ -1,0 +1,15 @@
+[
+  {
+    "id": "toyota-parts-master",
+    "name": "Toyota Parts Master dengan Estimasi",
+    "version": "1.1",
+    "description": "Tambahkan fitur estimasi sparepart dengan realtime notifikasi",
+    "matches": [
+      "https://passport.toyota.astra.co.id/n-tpos/Inquiry/PartMasterInquiry*"
+    ],
+    "requires": [],
+    "runAt": "document_idle",
+    "script_file": "dist/script.js",
+    "enabled": true
+  }
+]
